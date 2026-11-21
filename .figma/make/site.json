@@ -1,0 +1,10 @@
+{
+  "description": "A personal portfolio and technical blog showcasing Thanh Nguyen’s software projects, skills, and writing, with an admin CMS for managing articles and media.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
