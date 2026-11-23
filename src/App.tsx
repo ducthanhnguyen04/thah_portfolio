@@ -1,5 +1,5 @@
 import { FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
-import Avatar from "src/assets/thanhnguyen.jpeg";
+import Avatar from "./assets/thanhnguyen.jpeg";
 type Route =
   | "home"
   | "blog"
