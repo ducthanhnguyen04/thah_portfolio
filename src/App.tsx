@@ -1,5 +1,5 @@
 import { FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
-
+import Avatar from "src/assets/thanhnguyen.jpeg";
 type Route =
   | "home"
   | "blog"
@@ -701,7 +701,7 @@ function About() {
       <div className="about-grid">
         <div className="about-visual">
           <div className="portrait-frame">
-            <img src="src\assets\thanhnguyen.jpeg"></img>
+            <img src={Avatar}></img>
             <span>SOFTWARE ENGINEER</span>
           </div>
           <div className="location-card">
